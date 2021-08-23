@@ -1,0 +1,135 @@
+<doctype html>
+    <html lan="en" and dir="Itr">
+<head>
+    <meta charset="utf-8">
+    <title>MUSIC SITE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="menu-bar">
+        <ul>
+    <li class="active"><a href="#">HOME</a>
+        </li>
+        <li><a href="#">About US</a>
+            <div class="sub-menu-1">
+                <ul>
+                  <li><a href="#">TEAMS</a></li>  
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">MUSICIANS</a></li>
+    </ul>
+    </div>
+    </li>
+    <li><a href="#">Music categories</a>
+    <div class="sub-menu-1">
+        <ul>
+            <li><a href="#">KEYBOARDS</a></li>  
+            <li><a href="#">PIANOS</a></li>
+            <li><a href="#">GUITARS</a></li>
+            <li><a href="#">DRUMS</a></li>
+            <li><a href="#">PRO AUDIO</a></li>
+        </ul>
+    </div>
+    </li>
+    <li><a href="#">IN MEDIA</a>
+    <div class="sub-menu-1">
+        <ul>
+            <li><a href="#">OFFLINE</a></li>  
+            <li><a href="#">ONLINE FUSION</a></li>
+            <li><a href="#">SPECIALS</a></li>
+            <li><a href="#">AUDITION</a></li>
+        </ul>
+    </div>
+    </li>
+    <li><a href="#">BRANDS</a>
+    <div class="sub-menu-1">
+        <ul>
+            <li><a href="#">BOSS</a></li>  
+            <li><a href="#">AKAI</a></li>
+            <li><a href="#">CASIO</a></li>
+            <li><a href="#">ORANGE</a></li>
+        </ul>
+    </div>
+    </li>
+    <li><a href="#">CONTACT US</a>
+        <div class="sub-menu-1">
+            <ul>
+                <li><a href="#">CONTACT NUMBER</a></li>
+                <li><a href="#">QUIRES</a></li>  
+                <li><a href="#">EMAIL</a></li>
+                <li><a href="#">STORE</a></li>
+                <li><a href="#">TOLL FREE</a></li>
+            </ul>
+        </div>
+        </li>
+    <li><a href="#">SALES</a>
+        <div class="sub-menu-1">
+            <ul>
+                <li><a href="#">KEYBOARDS</a></li>
+                <li><a href="#">PIANOS</a></li>  
+                <li><a href="#">PRO AUDIO</a></li>
+                </ul>
+        </div>
+        </li>
+    </ul>
+    </div>
+    <center><h1 style="color:rgb(250, 233, 233)"> WELCOME TO MUSIC STROES!</h1></center>
+    <p>Welcome to Music Stores!
+        At our music store you'll be able to search for huge range of musical instruments
+        including Pianos, Keyboards, Drums, Microphones, Violins. We have the eminent 
+        musical instruments at lowest prices in India.</p>
+        <div class="dropdown">
+            <button class="dropbtn">Search</button>
+            <div class="dropdown-content">
+            <a href="#">KEYBOARDS</a>
+            <a href="#">Violins Guitars</a>
+            <a href="#">Pianos Drums</a>
+            <a href="#">pro Audio</a>
+            <a href="#">Bow instruments</a>
+            </div>
+          </div>
+        <style>
+            button{font:1em Arial; background:#b2ff00; color:#fff;}
+            p{font:1em Verdana; color:#b2ff00;}
+            </style>
+          <body>
+          <p id="output"></p>
+          <button onclick="getCoordinates()">
+             current location</button>
+             <p> Displaying location using Latitude and Longitude!!! </p>
+          <script>
+          var geo=document.getElementById("output");
+          function getCoordinates()
+            {
+            if (navigator.geolocation)
+              {
+              navigator.geolocation.getCurrentPosition(currentPosition);
+              }
+            else{geo.innerHTML="Yikes!! Please upgrade your dinasaur browser.";}
+            }
+          function currentPosition(pos)
+            {
+            geo.innerHTML="(Latitude , Longitude)" + "<br>" + "("
+            + pos.coords.latitude + " , " +
+             + pos.coords.longitude + ")";	
+            }
+          </script>
+    </div>
+    <p> Bring in all the beats! BIG BUCK BUNNY!! </p>
+    <!-- Simple video example -->
+<!-- 'Big Buck Bunny' licensed under CC 3.0 by the Blender foundation. Hosted by archive.org -->
+<!-- Poster from peach.blender.org -->
+<video controls
+src="https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4" 
+poster="https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217"
+width="450">
+Sorry, your browser doesn't support embedded videos,
+but don't worry, you can <a href="https://archive.org/details/BigBuckBunny_124">download it</a>
+and watch it with your favorite video player!
+</body>
+<p><strong>Note:</strong> The status correct or incorrect.</p>
+<input type="submit" value="Submit">
+  <input type="reset">
+        </td>
+    </tr>
+</body>
+    </html>
